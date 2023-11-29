@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Wave Clicker.css">
+  <title>Wave Clicker</title>
+  <style>
+    a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-bottom 0.3s ease;
+    }
+
+    a:hover {
+      border-bottom: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container">
+    <button id="click-button" onclick="handleButtonClick()">Click Me!</button>
+    <p>Score: <span id="score">0</span></p>
+    <p>High Score: <span id="high-score">0</span></p>
+    <input type="text" id="username" placeholder="Enter your username">
+    <button id="submit-score" onclick="submitScore()">Submit High Score</button>
+    <div id="scoreboard">
+      <h2>Scoreboard</h2>
+      <ul id="score-list"></ul>
+    </div>
+    <p id="game-over-message"></p>
+  </div>
+  <script src="Wave Clicker.js"></script>
+</body>
+
+</html>
