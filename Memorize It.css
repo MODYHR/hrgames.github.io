@@ -6,7 +6,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(45deg, #3498db, #e74c3c, #2ecc71, #f39c12);
+  background: linear-gradient(45deg, rgb(120, 207, 222), rgb(68, 100, 142), rgb(104, 147, 192), rgb(106, 182, 217));
   background-size: 400% 400%;
   animation: gradientAnimation 15s infinite;
 }
